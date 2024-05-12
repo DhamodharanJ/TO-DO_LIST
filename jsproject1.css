@@ -1,0 +1,125 @@
+*{
+    margin:0;
+    padding:0;
+}
+h4{
+    color: chartreuse;
+}
+.table{
+    margin: 20px auto;
+    width: fit-content;
+    font-size: 20px;
+    border: none;
+    outline:none;
+}
+input{
+    border:none;
+    outline:none;
+    font-size: medium;
+}
+td{
+    font-weight: bold;
+}
+#save{
+    height: 100%; width: 100%;border: none; background-color:red;
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    top:0;
+    left: 0;
+    position: absolute;
+    background-color: black;
+    display: none;
+    z-index: 2;
+    opacity: 0.8;
+}
+.container{
+    height: auto;
+    width: 300px;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    padding: 10px;
+    margin:10px ;
+    display: block;
+
+    /* position: absolute; */
+    /* z-index: 1; */
+}
+.symbol{
+height: 80px; width:90px; background-color: blue; border-radius: 50%; font-size: 70px; border: none;
+position:fixed;
+bottom:30px;
+right:30px;
+}
+.popupbox{
+    background-color: rgb(212, 27, 27) ;
+    width:40%;
+    height: 40%;
+    top:40%;
+    left:40%;
+    position: absolute;
+    padding: 10px ;
+    box-sizing: content-box;
+    display: none;
+    z-index: 4;
+}
+.popupbox input{
+    width: 90%;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: transparent;
+    border-bottom: 2px solid black;
+}
+.popupbox input::placeholder{
+    color: black;
+}
+textarea::placeholder{
+    color: black;
+}
+.popupbox textarea{
+    width: 90%;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid black;
+    margin-top: 5px;
+    outline:none;
+}
+.popupbox button{
+    padding:7px;
+    margin-top: 5px;
+    margin-right: 10px;
+    background-color: black;
+    color: white;
+    border:none;
+    font-size: 15px;
+}
+#parent-container{
+    display:flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+#btn2{
+    height: 3rem;
+    width: 5rem;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border-radius: 4rem;
+    margin-left: 10%;
+}
+#back{
+    height: 3rem;
+    width: 5rem;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border-radius: 4rem;
+}
+.upd{
+    border-radius: 40px; background-color: rgb(27, 212, 58); border: none; height: 20px; width: 80px; margin-top: 5px;
+}

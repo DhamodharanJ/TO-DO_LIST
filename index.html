@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="jsproject1.css">
+</head>
+
+<body>
+     <center>
+        <h1>STUDENT FORM</h1>
+    </center>
+    <div class="table">
+
+
+        <table class="a" border="1" cellspacing="5px">
+
+            <tr>
+                <td>Name</td>
+                <td><input type="text" class="one"></td>
+            </tr>
+            <tr>
+                <td>Age</td>
+                <td><input type="number" class="ones"></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td class="oness">
+                    <input type="radio" name="name" value="male" id="male">Male
+                    <input type="radio" name="name" value="female" id="female">Female
+                </td>
+            </tr>
+            <tr>
+                <td>Course</td>
+                <td><select class="onesss">
+                        <option>C</option>
+                        <option>C++</option>
+                        <option>Java</option>
+                        <option>Python</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td>E-mail</td>
+                <td><input type="email" class="onessss"></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="background-color: lightskyblue;" onclick="adds()">
+                    <button id="save"
+                        style="height: 100%; width: 100%;border: none; background-color:lightskyblue;">Save</button>
+                </td>
+            </tr>
+        </table>
+
+    </div>
+    <div class="table">
+        <table border="1" id="table">
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Gender</th>
+                <th>Course</th>
+                <th>E-mail</th>
+                <th>Action</th>
+            </tr>
+        </table>
+    </div>
+   <button id="btn2">Next Page</button>
+
+   
+    <!-- <div class="creative">hello 1</div>
+    <div class="creative">hello 2</div>
+    <div class="creative">hello 3</div>
+    <div class="creative">hello 4</div>
+    <div class="creative">hello 5</div>
+    <div class="creative">hello 6</div>
+    <marquee behaviour="alternate" direction="right" scrolldelay="50px" loop="infinite"><img src="https://www.icegif.com/wp-content/uploads/2023/06/icegif-1258.gif" ></marquee>  -->
+    <script src="jsproject1.js"></script>
+</body>
+
+</html>

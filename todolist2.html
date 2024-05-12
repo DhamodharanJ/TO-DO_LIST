@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="jsproject1.css">
+</head>
+
+<body>
+    <h1 style="background-color: rgb(224, 24, 24); padding: 3px;">Booksky</h1>
+    <div class="overlay"></div>
+    <div id="parent-container">
+        <div class="container">
+            <h3 style="color: rgb(224, 48, 48);">Rich Dad Poor Dad</h3>
+            <h4>Robert</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque accusantium, doloribus eligendi enim
+                non,
+                aspernatur laborum id illo suscipit nam fugiat, ab odit ut? Excepturi suscipit possimus et impedit ullam
+                adipisci voluptatem quia ipsam amet alias ratione sit dolor optio veritatis consequuntur culpa nobis
+                dolorem
+                beatae, natus soluta recusandae. Aspernatur.</p>
+            <button onclick=del(event)
+                style="border-radius: 40px; background-color: rgb(212, 27, 27); border: none; height: 20px; width: 80px; margin-top: 5px;">Delete</button>
+               <button class="upd" onclick="handleUpdate(event)">Update</button>
+                <div class="popupbox">
+                    <h2>Add book</h2>
+                        <input type="text" placeholder="Book Title" id="booktitle">
+                        <input type="text" placeholder="Book Author" id="bookauthor">
+                        <textarea placeholder="Short description" id="textarea"></textarea>
+                        <button id="add">Add</button>
+                        <button id="cancel">Cancel</button>
+                </div>
+        </div>
+    </div>
+    <button class="symbol">+</button>
+    <button id="back">Back page</button>
+    <script src="jsproject1.js"></script>
+</body>
+
+</html>
